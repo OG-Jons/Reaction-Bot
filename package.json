@@ -1,0 +1,28 @@
+{
+  "name": "reaction_bot",
+  "version": "1.0.0",
+  "description": "Responds with reactions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OG-Jons/Reaction-Bot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discord.js",
+    "discord_bot"
+  ],
+  "author": "OG-Jons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OG-Jons/Reaction-Bot/issues"
+  },
+  "homepage": "https://github.com/OG-Jons/Reaction-Bot#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  }
+}
