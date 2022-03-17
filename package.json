@@ -4,6 +4,8 @@
   "description": "Responds with reactions",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,5 +26,8 @@
   "homepage": "https://github.com/OG-Jons/Reaction-Bot#readme",
   "dependencies": {
     "discord.js": "^13.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
