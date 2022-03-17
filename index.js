@@ -18,7 +18,7 @@ client.once('ready', () => {
 client.on('messageCreate', async message => {
     // If the message is "ping"
     if (message.author.id !== client.user.id) {
-        if (message.content.includes("cuh")) {
+        if (message.content.toLowerCase().includes("cuh")) {
             await message.reply('https://tenor.com/view/cuh-old-man-gif-22853886');
         }
     }
